@@ -1,6 +1,6 @@
 <?php  
-include'funciones1.php';
-Conectar();
+/*include'funciones1.php';
+Conectar();*/
 if (isset($usu)){
 		session_start();
 		session_register('usuario');
@@ -49,7 +49,7 @@ if (isset($usu)){
 					<div class="container">
 				        <div class="card card-container">
 				           
-				            <img id="profile-img" class="profile-img-card" src="imagenes/dentis.png" />
+				            <img id="profile-img" class="profile-img-card" src="imagenes/salud.png" />
 				            
 				            <form class="form-signin" action="index.php" method="post">
 				                <span id="reauth-email" class="reauth-email"></span>
@@ -86,7 +86,7 @@ if (isset($usu)){
 					<div class="container">
 				        <div class="card card-container">
 				           
-				            <img id="profile-img" class="profile-img-card img-responsive" src="imagenes/dentis.png"/>
+				            <img id="profile-img" class="profile-img-card" src="imagenes/salud.png" />
 				            
 				            <form class="form-signin" action="index.php" method="post">
 				                <span id="reauth-email" class="reauth-email"></span>
